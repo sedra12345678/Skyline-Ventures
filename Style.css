@@ -1,0 +1,252 @@
+.AboutUs-header {
+    background: #4B96C9;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+header h1 {
+    margin: 0;
+}
+
+  
+  section {
+            margin-top: 20px;
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px #4B96C9;
+        }
+  address {
+            background-color:#4B96C9;
+            padding: 15px;
+            line-height: 24px;
+            border-radius: 8px;
+        
+        }
+         .AboutUs-nav {
+    background-color: #4B96C9;
+color: white;    
+    padding: 10px 100px;
+    text-align: center;
+}
+  
+.AboutUs-nav a {
+  color:white;
+  margin: 0 10px;
+  padding: 10px 10px
+}
+          body {
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+img {
+  margin-left: auto;
+  width: 400px;
+  height: 400px;
+  text-align: center;
+}
+  nav {
+    background-color: #4B96C9;
+color: white;    
+    padding: 10px 100px;
+    text-align: center;
+}
+  
+nav a {
+  color:white;
+  margin: 0 10px;
+  padding: 10px 10px
+}
+
+table {
+
+    margin: 20px auto;
+    width: 80%;
+    background-color: #fff;
+    border-collapse: collapse;
+    box-shadow: 0 0 5px #4B96C9;
+
+}
+
+
+
+th, td {
+    padding: 10px;
+    border: 1px solid #dfd8d8;
+    text-align: left;
+}
+
+th {
+    background-color: #347eaf;
+    color: #ffffff;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+a {
+    color: #3a8ac0;
+    text-decoration: none;
+    font-size: 18px;
+}
+       
+
+    body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 20px;
+    line-height: 1.6;
+    background-color: #f3f4f6;
+    color: #1b1b1b;
+}
+.properties {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(221, 200, 200);
+    padding: 20px;
+    flex: 1 0 100%;
+    width: 100%;
+  }
+  .properties .row {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  }
+  .properties .details-row {
+    height: 0;
+    transition: 0.3s ease height;
+    overflow: hidden;
+  }
+  .properties .details-row.show {
+    height: auto;
+    border-bottom: 1px solid black;
+  }
+  
+  .properties .details-row .details-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 10px;
+    justify-content: space-between;
+    text-align: right;
+    gap: 20px;
+    max-width: 80%;
+    margin: 0 auto 20px;
+  }
+  .properties .details-row .details-wrapper img {
+    object-fit: cover;
+    width: 100%;
+  }
+  .properties .row.header {
+    margin-bottom: 10px;
+    font-weight: bold;
+    border: 1px solid black;
+    font-size: 18px;
+  }
+  .properties .body {
+    border: 1px solid black;
+  }
+  .properties .body .row:not(:last-child) {
+    border-bottom: 1px solid black;
+  }
+  
+  .properties .row .col {
+    width: 25%;
+    text-align: right;
+    &:last-child {
+      text-align: left;
+    }
+    &:nth-child(2) {
+      width: 50%;
+    }
+  }
+  
+  
+  .col-but {
+    cursor: pointer;
+    padding: 10px 20px;
+    border: 0;
+    background-color: whitesmoke;
+    border-radius: 8px;
+  }
+  
+  .col-but.but-select {
+    padding: 10px;
+  }
+  .col-but.but-select.selected {
+    background-color: rgb(80, 76, 76);
+    color: white;
+  }
+  
+/* تحسين التنسيقات لرمز Captcha */
+#captchaForm {
+  max-width: 100px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  text-align: center;
+}
+
+#captchaInput {
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+#captchaImage {
+  width: 10%;
+  height: 5%;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  margin-bottom: 2px;
+}
+
+#captchaError {
+  display: block;
+  margin-bottom: 10px;
+}
+
+#purchaseForm {
+  display: none;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+label {
+  display: block;
+  margin: 10px 0;
+}
+
+input {
+  width: 50%;
+  padding: 10px;
+  margin: 5px 0;
+  box-sizing: border-box;
+}
+#buyForm{
+  font-size: 20px;
+  color:#32343d;
+  font-weight: bold;
+  }
+input{
+box-shadow: 3px 3px 7px #5f6b69;
+}
+#refBtn{
+  cursor: pointer;
+  color: #FFFFFF;
+  background-color: #32343d;
+  border: none;
+  border-radius: 10px;
+}
+thead{
+  font-size: 16px;
+  }
+  .tbodyProduct{
+  font-size: 18px;
+  }

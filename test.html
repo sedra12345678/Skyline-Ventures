@@ -1,0 +1,55 @@
+<head>
+    <meta charset="UTF-8">
+    <title>AboutUs</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+   
+    <div class="modal">
+        <form action="">
+            <div>
+                <label for="name">الاسم الكامل باللغة العربية</label>
+                <input type="text" id="name" name="name" placeholder="الاسم بالعربي فقط">
+            </div>
+            <div>
+                <label for="id">الرقم الوطني</label>
+                <input type="text" id="id" name="id" required placeholder="يجب ان يكون 11 رقم">
+            </div>
+            <div>
+                <label for="bdate">تاريخ الميلاد</label>
+                <input type="date" id="bdate" name="bdate">
+            </div>
+            <div>
+                <label for="phone">رقم الهاتف</label>
+                <input type="tel" id="phone" name="phone" placeholder="963*** *** ***">
+            </div>
+            <div>
+                <label for="email">البريد الالكتروني</label>
+                <input type="email" id="email" name="email">
+            </div>
+            <!-- حقل Captcha -->
+        <label for="captcha">رمز التحقق:</label>
+        <input type="text" id="captcha" name="captcha" required="" placeholder="5EtNMT">
+        <button type="button" onclick="changeCaptcha()">تغيير الرمز</button>
+        <br/>
+        <img id="captchaImage" src="https://dummyimage.com/150x50/000/fff&amp;text=5EtNMT" alt="رمز التحقق">
+        <button class="form-but" type="submit">إرسال</button>
+        </form>
+       
+    </div>
+    <script>
+        function toggleDetails(index) {
+            var detailsRow = document.getElementById('details-' + index);
+            if (detailsRow.style.display === 'table-row') {
+                detailsRow.style.display = 'none';
+            } else {
+                detailsRow.style.display = 'table-row';
+            }
+        }
+
+       
+        document.querySelectorAll('.details-row').forEach(function (row) {
+            row.style.display = 'none';
+        });
+    </script>
+<script src="./myFunctions.js"></script>
